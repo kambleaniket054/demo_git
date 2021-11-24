@@ -247,7 +247,7 @@ border: InputBorder.none,
                          , Column(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                children: [
-                                 Text("Vallina Cake"),
+                                 Text("Black Forest Cake"),
                                  SizedBox(height: 10.0,),
                                  Row(
                                    mainAxisAlignment: MainAxisAlignment.spaceAround,
