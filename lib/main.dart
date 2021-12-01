@@ -1,4 +1,5 @@
 import 'package:demo_flutter_app/MyHomePage.dart';
+import 'package:demo_flutter_app/pinchange.dart';
 import 'package:demo_flutter_app/productdata.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -41,9 +42,9 @@ class Navigation extends StatefulWidget {
 class NavigationState extends State<Navigation> {
 int selectIndex = 0;
   List items = [
-   MyHomePage(),
-  productdata(),
+    MyHomePage(),
     productdata(),
+    pinchange(),
     productdata(),
   ];
 
